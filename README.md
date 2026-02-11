@@ -1,17 +1,22 @@
 Purpose: Help those who want to connect openclaw to run large models locally, but don't know how to configure it. OpenClaw can call LM-Studio in the LAN to run large models.
-
+目的：帮助那些想要把OpenClaw连接到本地lmstudio上运行大型模型却不知道如何配置的人。OpenClaw可以在局域网内调用LM-Studio来运行大型模型。
 
 Refer to openclaw.json file, openclaw.json is the configuration file of what model openclaw uses.
-
+参考我上传的openclaw.json文件，openclaw.json是openclaw使用什么型号的配置文件。
 
 1. openclaw.json stored in the /home/your_user_name/.openclaw/ path, you can replace your existing openclaw.json files for the first time. If not satisfied, you can run the openclaw onboard command to reconfigure the lobster once.
+openclaw.json存储在/home/your_user_name/.openclaw/ 路径下，首次使用时你可以替换现有的openclaw.json文件。如果不满意，你可以运行openclaw onboard命令重新配置龙虾。
 
  2. "baseUrl": "http://192.168.0.12:1234/v1", this is the IP address of the lmstudio machine
+ "baseUrl"："http://192.168.0.12:1234/v1"，这是lmstudio运行在哪台机器上的IP地址
 
  3. "primary": "lmstudio/openai/gpt-oss-20b", here you write the large model you want to run, it must start with lmstudio, if you only write openai/gpt-oss-20b, an error will be reported
+ "primary": "lmstudio/openai/gpt-oss-20b",在这里输入你想要运行的大模型，它必须以lmstudio开头，如果你只写openai/gpt-oss-20b，将会报错
 
  4. "models": {
          "lmstudio/openai/gpt-oss-20b", here you write the large model you want to run, it must start with lmstudio, if you only write openai/gpt-oss-20b, it will report an error
+"models": {
+         "lmstudio/openai/gpt-oss-20b", 在这里输入你想要运行的大模型，它必须以lmstudio开头，如果你只写openai/gpt-oss-20b，将会报错
 
 
 5.  "models": [
