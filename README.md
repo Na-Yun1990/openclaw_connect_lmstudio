@@ -8,5 +8,3 @@
  
  4. "models": {
          "lmstudio/openai/gpt-oss-20b"，必须是lmstudio开头，如果只写openai/gpt-oss-20b，则会报错
-
-
