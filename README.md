@@ -1,4 +1,5 @@
 Purpose: Help those who want to connect openclaw to run large models locally, but don't know how to configure it. OpenClaw can call LM-Studio in the LAN to run large models.
+
 目的：帮助那些想要把OpenClaw连接到本地lmstudio上运行大型模型却不知道如何配置的人。OpenClaw可以在局域网内调用LM-Studio来运行大型模型。
 
 Refer to openclaw.json file, openclaw.json is the configuration file of what model openclaw uses.
