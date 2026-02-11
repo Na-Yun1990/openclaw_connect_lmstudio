@@ -30,4 +30,6 @@ openclaw.json存储在/home/your_user_name/.openclaw/ 路径下，首次使用�
 
 
 6. "contextWindow": 131072, 这里是上下文窗口大小，ollama官方那边建议是openclaw至少是64k以上，但是我测得的是至少13k~15k起步才能启动对话，否则会报错.64k以上应该是ollama认为可以流畅的运行的标准。
-            "maxTokens": 8192  这里是最大输出，根据你的大模型性能和机器性能自行调整
+也就是说如果你使用的模型，它的最大上下文窗口过小的话基本就无法使用openclaw。
+
+"maxTokens": 8192  这里是最大输出，根据你的大模型性能和机器性能自行调整
