@@ -21,8 +21,8 @@ openclaw.json存储在/home/your_user_name/.openclaw/ 路径下，首次使用�
 
 5.  "models": [
           {
-            "id": "gpt-oss-20b", where the name of the model is written
-            "name": "gpt oss 20b", where the name of the model is written
+            "id": "gpt-oss-20b", where the name of the model is written（模型名称的书写位置）
+            "name": "gpt oss 20b", where the name of the model is written（模型名称的书写位置）
             "reasoning": false,
             "input": [
               "text"
