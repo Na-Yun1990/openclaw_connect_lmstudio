@@ -1,3 +1,5 @@
+用途：帮助那些想把openclaw接入本地运行大模型，却不会配置的朋友。可以让openclaw调用局域网内的lm-studio来运行大模型。
+
 参照openclaw.json文件,openclaw.json是openclaw使用什么模型的配置文件。
 
 1. openclaw.json存放在 /home/nayunrichman/.openclaw/ 路径下，初次体验，可以替换掉你现有的openclaw.json文件。如果不满意，可以运行openclaw onboard命令重新配置一次龙虾。
