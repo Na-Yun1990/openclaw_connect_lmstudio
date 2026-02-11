@@ -6,7 +6,7 @@
  
  2. "baseUrl": "http://192.168.0.12:1234/v1"，这个是跑lmstudio机器的IP地址
  
- 3. "primary": "lmstudio/openai/gpt-oss-20b"，必须是lmstudio开头，如果只写openai/gpt-oss-20b，则会报错
+ 3. "primary": "lmstudio/openai/gpt-oss-20b"，这里写你要运行的大模型，必须是lmstudio开头，如果只写openai/gpt-oss-20b，则会报错
  
  4. "models": {
-         "lmstudio/openai/gpt-oss-20b"，必须是lmstudio开头，如果只写openai/gpt-oss-20b，则会报错
+         "lmstudio/openai/gpt-oss-20b"，这里写你要运行的大模型，必须是lmstudio开头，如果只写openai/gpt-oss-20b，则会报错
