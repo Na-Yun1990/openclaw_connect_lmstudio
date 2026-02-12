@@ -6,9 +6,7 @@ Refer to openclaw.json file, openclaw.json is the configuration file of what mod
 
 参考我上传的openclaw.json文件，openclaw.json是openclaw使用什么型号的配置文件。
 
-1. openclaw.json stored in the /home/your_user_name/.openclaw/ path, you can replace your existing openclaw.json files for the first time. If not satisfied, you can run the openclaw onboard command to reconfigure the lobster once.
-
-openclaw.json存储在/home/your_user_name/.openclaw/ 路径下，首次使用时你可以替换现有的openclaw.json文件。如果不满意，你可以运行openclaw onboard命令重新配置龙虾。
+1. openclaw.json存储在/home/your_user_name/.openclaw/ 路径下，首次使用时你可以替换现有的openclaw.json文件,然后运行命令 openclaw onboard 。 跳过第一项选择模型供应商，在选择具体模型中会看到lmstudio，选择进去，选择你的模型。
 
  2. "baseUrl": "http://192.168.0.12:1234/v1", this is the IP address of the lmstudio machine
     
